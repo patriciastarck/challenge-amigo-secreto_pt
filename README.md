@@ -2,6 +2,7 @@
 
 ## Sobre
 Desafio de lógica de programação do ONE Alura.
+O Amigo Secreto é uma aplicação onde podemos adicionar os nomes dos participantes e realizar um sorteio.
 
 ## Tecnologias Utilizadas
 
