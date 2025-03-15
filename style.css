@@ -17,10 +17,11 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-primary);
+    background-image: url('./assets/vecteezy_many-colorful-gift-boxes-on-a-tan-background_52932253.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .main-content {
@@ -131,7 +132,7 @@ ul {
     color: var(--color-text);
     font-family: "Inter", sans-serif;
     font-size: 18px;
-    margin: 20px 0;
+    margin: 20px 0;    
 }
 
 .result-list {
@@ -143,9 +144,11 @@ ul {
 }
 
 /* Botão de sortear título */
-.button-draw {
+.button-draw,
+.button-reset {
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
@@ -153,10 +156,12 @@ ul {
     font-size: 16px;
 }
 
-.button-draw img {
+.button-draw img,
+.button-reset img {
     margin-right: 40px;
 }
 
-.button-draw:hover {
+.button-draw:hover,
+.button-reset:hover {
     background-color: var(--color-button-hover);
 }

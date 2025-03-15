@@ -35,3 +35,17 @@ function sortearAmigo() {
     let sorteado = amigos[Math.floor(Math.random() * amigos.length)]; // Escolhe um nome aleatório da lista
     document.getElementById("resultado").innerHTML = `<li>O amigo secreto é: <strong>${sorteado}</strong></li>`; // Exibe o nome sorteado na página
 }
+
+function reiniciarJogo() {
+    amigos = []; //esvazia a lista de amigos
+    document.getElementById("listaAmigos").innerHTML = "";
+    document.getElementById("resultado").innerHTML = "";
+    document.getElementById("amigo").innerHTML = "";
+}
+
+document.getElementById("amigo").addEventListener("keypress", function(event) {
+    if(event.key === "Enter") {
+        event.preventDefault();
+        adicionarAmigo();
+    }
+})
