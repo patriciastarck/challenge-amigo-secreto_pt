@@ -18,7 +18,11 @@ function adicionarAmigo() {
 // Função para exibir a lista de amigos na página
 function mostrarLista() {
     let lista = document.getElementById("listaAmigos"); // Obtém a referência da lista no HTML
-    lista.innerHTML = amigos.map(nome => `<li>${nome}</li>`).join(""); // Cria a lista de forma mais simples
+
+    // Coloca os nomes em ordem alfabética
+    let amigosOrdenados = [...amigos].sort((a, b) => a.localeCompare (b));
+
+    lista.innerHTML = amigosOrdenados.map(nome => `<li>${nome}</li>`).join(""); // Cria a lista de forma mais simples
 }
 
 // Função para sortear um amigo aleatoriamente
