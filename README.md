@@ -1,4 +1,4 @@
-# Challenge Amigo Secreto
+# Challenge Amigo Secreto🔒
 
 ## Sobre
 Desafio de lógica de programação do ONE Alura.
@@ -11,6 +11,13 @@ O Amigo Secreto é uma aplicação onde podemos adicionar os nomes dos participa
 | ![HTML5](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg) | ![CSS3](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg) | ![JavaScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg) |
 | HTML5 | CSS3 | JavaScript |
 
+## Funcionalidades🛠️
+- Adicionar os nomes dos participantes do sorteio do amigo secreto;✏️
+- Impedir de cadastrar dois nomes iguais;👯
+- Exibir os nome adicionados numa lista;📋
+- Sortear o nome do amigo secreto;🙈
+- Resetar/limpar a lista de nomes;⬜
+- Acionar a tecla enter para adicionar nomes;⌨️
 ## Autora
 
 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
